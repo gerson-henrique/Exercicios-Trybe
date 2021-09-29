@@ -11,9 +11,11 @@ O Programa conta com mais de 1.500 horas de aulas online e aborda introdução a
 
 
 <code> 
-🔜 Fundamentos do Desenvolvimento Web 
-🆗 Bloco 1 : Unix & Bash <br>
-🆗 Unish & Bash 
-🔜 
-Liderança
+🔜 Fundamentos do Desenvolvimento Web |  Web Development Fundamentals
+    🆗 block 1 : Unix & Bash         
+    🆗 Unish & Bash - pt 1
+    🆗 Unish & Bash - pt 2 
+
+🔜Liderança
+    🆗Por que sedesenvolver em Soft Skill| 
  </code>
