@@ -19,14 +19,18 @@ The Program features over 1,500 hours of online classes and covers introduction 
 <div>🟡 Fundamentos do Desenvolvimento Web | <i> Web Development Fundamentals </i> <br>
 ◽🟢 Block 1 : Unix & Bash <br>        
 ◽◽🟢 Unish & Bash - pt 1 <br>
-◽◽🟢 Unish & Bash - pt 2 <br>
+◽◽🟢 Unish & Bash - pt 2 <br><br>
 ◽🟢 Block 2 : Git, GitHub & Internet <br> 
 ◽◽🟢 Git & GitHub - O que é e para que serve | <i>
 Git & GitHub - What is it and what is it for </i> <br>    
 ◽◽🟢 Git & GitHub - Entendendo os comandos | <i> 
 Understanding the commands </i>    </br>
-◽◽🟢 Internet - Entendendo como ela funciona
-    
+◽◽🟢 Internet - Entendendo como ela funciona<br>br
+◽🟢 Block 3 : I HTML & CSS<br> 
+◽◽🟢 Primeiros passos em HTML | <i>
+Firt steps in HTML </i> <br>    
+◽◽🟡Primeiros passos em CSS
+Firt steps in CSS</i>    </br>   
 </div>
 
 <br>
