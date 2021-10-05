@@ -1,4 +1,4 @@
-div:hover{
-    border-style:double;
-    border-color: crimson;
+div :hover{
+    border-style: dotted;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1)
 }
