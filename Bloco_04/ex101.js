@@ -5,5 +5,6 @@ let birthYear = 1998
 birthYear = 2030;
 birthCity = Kingston;
 
-console.log(myName, birthCity, birthYear);
+/* console.log(myName, birthCity, birthYear); */
 
+/* não pode ser modificado por ser uma const */
