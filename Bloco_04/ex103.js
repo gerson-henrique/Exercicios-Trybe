@@ -1,0 +1,14 @@
+const notaDesafioTecnico = 100;
+
+if (notaDesafioTecnico >= 80){
+    console.log("Parabéns, você foi aprovada(o)!");
+} 
+
+else if (notaDesafioTecnico < 80 && notaDesafioTecnico >= 60){
+    console.log("Você está na nossa lista de espera");
+} 
+
+else if (notaDesafioTecnico < 60){
+    console.log("você foi reprovado");
+}
+ 
