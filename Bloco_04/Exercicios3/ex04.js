@@ -42,7 +42,7 @@ if (ehPar){
 }
 
 
-
+let alfa = n;
 
 
 for (i=0;i<flag;i++){
@@ -53,13 +53,14 @@ for (i=0;i<flag;i++){
 
         if( metaControle <= n){
 
-            for (let p = 0; p < n; p = p + 2 ) {
-            for (let ox = 0; ox < n; ox = ox + 2 ) {   
-                espaços=espaços + " "
+            for (let p = 0; p < alfa; p = p + 2 ) {
+            {   
                 
+                espaços=espaços + " "
+               
             }
         }
-            
+        alfa = alfa - 2;
         console.log(espaços+asterisco+espaços);
         metaControle += 2;
         asterisco+= '**';
