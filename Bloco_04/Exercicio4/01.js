@@ -4,6 +4,6 @@ let car = {
     color: 'white',
   };
   
-  for (let index in car) {
+  for (let key in car) {
     console.log(index, car[index]);
   }
