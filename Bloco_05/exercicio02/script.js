@@ -1,7 +1,5 @@
-const paragrafer = document.getElementsByClassName("paragraph");
+const newPara = document.getElementsByClassName("paragraph");
+newPara[0].style.fontStyle = "italic";
 
-paragrafer[0].style.borderStyle="solid" 
-
-for( let key in paragrafer ){
-  paragrafer[key].style.color= "red"
-}
+const newSub = document.getElementsByTagName("h4");
+newSub[0].style.color = "green"
