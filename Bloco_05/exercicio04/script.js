@@ -11,6 +11,4 @@ document.querySelector(".no-emergency-tasks").style.backgroundColor = "Khaki";
 colorC[itens].style.backgroundColor = "DarkOrchid";
 colorB[itens].style.backgroundColor = "Black";
  }
- for(let itensII in colorB  ){
-    
-     } 
+
