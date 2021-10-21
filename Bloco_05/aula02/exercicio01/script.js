@@ -1,19 +1,19 @@
-document.getElementById("elementoOndeVoceEsta"). //ex 1
 
-let ex2 = document.getElementById("elementoOndeVoceEsta").parentNode
 
-let ex2 = document.getElementById("elementoOndeVoceEsta").parentNode
-camel.style.backgroundColor = "red";
+let pai = document.getElementById ("elementoOndeVoceEsta").parentNode
+let bthElement = document.createElement("div")
+pai.appendChild(bthElement);
+bthElement.innerText = "teste 1"
 
-let ex3 = document.getElementById("primeiroFilhoDoFilho");
-ex3.innerText = 'manda dança';
+let eu = document.getElementById ("elementoOndeVoceEsta")
+let sonElement = document.createElement("div")
+pai.appendChild(sonElement);
+sonElement.innerText = "teste 2"
 
-let ex4 = document.getElementById("pai").firstElementChild
+let myFilho = document.getElementById ("elementoOndeVoceEsta").firstElementChild
+let nepw = document.createElement("div")
+myFilho.appendChild(nepw);
+nepw.innerText = "teste 3"
+nepw.id = "npw"
 
-let ex5 = document.getElementById("pai").firstElementChild.nextElementSibling.firstElementChild
-
-let  ex6  = document.getElementById("elementoOndeVoceEsta").nextSibling
-
-let  ex7 = document.getElementById("elementoOndeVoceEsta").nextElementSibling
-
-let ex8 = document.getElementById("pai").firstChild.nextElementSibling.nextElementSibling
+let way = document.getElementById("npw").parentNode.parentNode.nextElementSibling
