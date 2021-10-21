@@ -1,15 +1,19 @@
-let camel = document.getElementById("elementoOndeVoceEsta").parentNode
+document.getElementById("elementoOndeVoceEsta"). //ex 1
+
+let ex2 = document.getElementById("elementoOndeVoceEsta").parentNode
+
+let ex2 = document.getElementById("elementoOndeVoceEsta").parentNode
 camel.style.backgroundColor = "red";
 
-let dromedary = document.getElementById("primeiroFilhoDoFilho");
-dromedary.innerText = 'manda dança';
+let ex3 = document.getElementById("primeiroFilhoDoFilho");
+ex3.innerText = 'manda dança';
 
-let Alpaca = document.getElementById("pai").firstChild.nextElementSibling.firstChild
+let ex4 = document.getElementById("pai").firstElementChild
 
-let  lhamma  = document.getElementById("elementoOndeVoceEsta").previousSibling
+let ex5 = document.getElementById("pai").firstElementChild.nextElementSibling.firstElementChild
 
-let  pony = document.getElementById("elementoOndeVoceEsta").nextSibling
+let  ex6  = document.getElementById("elementoOndeVoceEsta").nextSibling
 
-let unicorn = document.getElementById("elementoOndeVoceEsta").nextElementSibling
+let  ex7 = document.getElementById("elementoOndeVoceEsta").nextElementSibling
 
-let pegasus = document.getElementById("pai").firstChild.nextElementSibling.nextElementSibling
+let ex8 = document.getElementById("pai").firstChild.nextElementSibling.nextElementSibling
