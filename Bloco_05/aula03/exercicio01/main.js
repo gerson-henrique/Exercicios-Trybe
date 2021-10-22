@@ -21,6 +21,8 @@ highlightFb.addEventListener("click",MudarTag)
 highlightSb.addEventListener("click",MudarTag)
 highlightTb.addEventListener("click",MudarTag)
 
+  
+
 
 function MudarTag(eventoDeOrigem) {
     
@@ -35,8 +37,25 @@ function MudarTag(eventoDeOrigem) {
 
     eventoDeOrigem.target.className= "tech"
 
-    console.log (eventoDeOrigem.target)
+    console.log(eventoDeOrigem.target)
 }
+
+let ctrlC = document.getElementsByTagName('input')
+ctrlC[0].addEventListener('change',MudarTexto)
+
+function MudarTexto(){
+
+    let constCheck = document.getElementsByClassName('tech') 
+
+     constCheck.innerText = ctrlC.innerText
+
+     for (let i = constCheck.length-1; i >= 0; i -= 1) {
+       
+        constCheck[i].innerText = ctrlC[0].value;
+
+    }
+
+}  
 
 
 
@@ -44,12 +63,37 @@ function MudarTag(eventoDeOrigem) {
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 
+
+portifolioCall = document.getElementsByTagName('h1')
+portifolio = portifolioCall[0]
+
+portifolio.addEventListener('dblclick',chamaPortifolio)
+function chamaPortifolio (){
+
+    window.location.href = "https://github.com/gerson-henrique"
+
+}
+
+
+portifolio.addEventListener('mouseover',trocaCor)
+function trocaCor (){
+
+    portifolio.style.color = "BlueViolet"
+
+}
+
+
+
+
+
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portifólio?
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+
+
 
 // Segue abaixo um exemplo do uso de event.target:
 
