@@ -60,9 +60,17 @@ const books = [
     releaseYear: 1928,
   },
 ];
+let biggerBook = 'não acredito que esse não é o maior titulo possivel' ;
+function smallerName()  {
+  books.forEach((value) => {
+(biggerBook.length > value.name.length)? biggerBook = value.name : biggerBook=biggerBook;
+})
 
-function authorBornIn1947() { 
-return books.find((books) =>  books.author.birthYear === 1947).author.name;
+return biggerBook
 }
+ 
 
-console.log(authorBornIn1947()); 
+
+
+
+console.log(smallerName());
