@@ -61,11 +61,13 @@ const books = [
   },
 ];
 
-const livro = books.some((obj) => {
-if (obj.releaseYear<= 1980 && obj.releaseYear>=1989){
-  return true
-}
+const livro = books.every((obj) => {
 
-});
+  if (books.some((obj2) => (obj.author.birthYear === obj2.author.birthYear) && (obj.author.name !== obj2.author.name))){
+      return false
+    }
+  });
+
+
 
 console.log(livro)
