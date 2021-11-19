@@ -63,13 +63,6 @@ const books = [
 
 function authorBornIn1947() { 
   
-  return books.map((book) => (
-    {
-    age: book.releaseYear - book.author.birthYear,
-    author: book.author.name,
-      }
-  )).sort((a,b) =>  a.age -b.age)
-
-  }
-  
+  return books.filter((value) => value.genre === 'Ficção Científica' || value.genre === 'Fantasia')
+}
   console.log(authorBornIn1947()); 
