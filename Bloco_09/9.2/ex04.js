@@ -31,13 +31,13 @@ const pokemons = [
     }, 2000);
   }
   
-  getPokemonDetails(((poke)=> poke.name === 'Squirtle'), ((error,msg) => {
-      if (error) {
-           console.log(error);
-      } else{
-           console.log(msg);
-      }
-  }));
+  // getPokemonDetails(((poke)=> poke.name === 'Squirtle'), ((error,msg) => {
+  //     if (error) {
+  //          console.log(error);
+  //     } else{
+  //          console.log(msg);
+  //     }
+  // }));
   
   module.exports = {
     getPokemonDetails,
