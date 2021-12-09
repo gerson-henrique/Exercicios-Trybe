@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <title>Document</title>
+</head>
+<body>
+<form action="">
+  <fieldset> 
+  <p>Digite seu Nome:</p>
+    <input  type="text" maxlength="40" required> <br>
+    <p>Digite seu Email:</p>
+    <input type="email" maxlength="50" required> <br>
+    <p>Digite seu CPF:</p>
+    <input type="text" maxlength="11" required> <br>
+    <p>Digite seu Endereço:</p>
+    <input type="text" maxlength="200" required> <br>
+    <p>Digite sua Cidade:</p>
+    <input type="text" maxlength="28" required> <br>
+    <p>Escolha seu Estado:</p>
+    <select name="estado" id="input-estado" required>
+<option value="AC">   Acre    </option>
+<option value="AL">   Alagoas    </option>
+<option value="AP">   Amapá    </option>
+<option value="AM">   Amazonas    </option>
+<option value="BA">   Bahia    </option>
+<option value="CE">   Ceará    </option>
+<option value="DF">   Distrito Federal    </option>
+<option value="ES">   Espírito Santo    </option>
+<option value="GO">   Goiás    </option>
+<option value="MA">   Maranhão    </option>
+<option value="MT">   Mato Grosso    </option>
+<option value="MS">   Mato Grosso do Sul    </option>
+<option value="MG">   Minas Gerais    </option>
+<option value="PA">   Pará    </option>
+<option value="PB">   Paraíba    </option>
+<option value="PR">   Paraná     </option>
+<option value="PE">   Pernambuco    </option>
+<option value="PI">   Piauí    </option>
+<option value="PB">   Paraíba    </option>
+<option value="RS">   Rio de Janeiro     </option>
+<option value="RN">   Rio Grande do Norte     </option>
+<option value="RS">   Rio Grande do Sul   </option>
+<option value="RS">   Rio Grande do Sul   </option>
+<option value="RO">   Rondônia   </option>
+<option value="RR">   Roraima   </option>
+<option value="SC">   Santa Catarina   </option>
+<option value="SP">   São Paulo   </option>
+<option value="SE">   Sergipe   </option>
+<option value="Tocantins">   Tocantins   </option>
+
+    </select>
+<p> Residencia</p>
+
+<label for="casa-1">
+<input type="radio" checked name="casa-tipo" id="casa-1" value="Casa"> Casa
+</label>
+  
+<label for="casa-2">
+  <input type="radio" name="casa-tipo" id="casa-2" value="Apartamento"> Apartamento
+  </label>
+
+  </fieldset>
+  
+  <fieldset>
+    <p>Resuma seu Curriculum: </p>
+<textarea required name="Curriculo" id="CV" cols="75" rows="20" maxlength="1000"></textarea>
+
+<p>Cargo</p>
+<input required type="text" name="cargo" id="cG1" maxlength="40" >
+
+<p>Descrição do Cargo</p>
+<input required type="text" name="cargoDesc" id="cG1Desc" maxlength="500" >
+ 
+<p>Data de Inicio</p>
+<input type="date" name="dataIn" id="datain1"> 
+
+
+
+
+</fieldset>
+
+<button id="envia" class="btn-success" type="submit">Enviar </button>
+<button id="limpar" type="submit">Limpar Formularios </button>
+
+</form>
+<script src="script.js"></script>
+</body>
+</html>
